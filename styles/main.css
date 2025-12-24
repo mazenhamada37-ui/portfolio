@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.sec-1 {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+}
+h1:hover {
+  color: #fd0000;
+}
+p.role:hover {
+  color: #00ffea;
+}
+.sec-1 img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.sec-1 h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.sec-1 .role {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #b026ff;
+}
+
+.content-section {
+  text-align: center;
+}
+
+.main-title {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #ccc;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.stats {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.stat-item h3 {
+  font-size: 28px;
+  margin: 0 0 5px 0;
+  font-family: "Playfair Display", serif;
+}
+
+.stat-item span {
+  font-size: 12px;
+  color: #bbb;
+  display: block;
+  max-width: 100px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #b026ff;
+  color: #fff;
+  padding: 12px 40px;
+  border-radius: 8px;
+}
+
+.cta-button:hover {
+  background-color: #8a1dc9;
+}
+.skills {
+  padding: 60px 10%;
+}
+
+.skills-list {
+  display: flex;
+  gap: 15px;
+}
+
+.skills-list span {
+  background: #1c1c1f;
+  padding: 10px 16px;
+  border-radius: 12px;
+}
+.skills-list span:hover {
+  background: #a855f7;
+  color: #000000;
+  cursor: pointer;
+}
